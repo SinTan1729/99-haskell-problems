@@ -8,3 +8,5 @@ I'm using the great book Learn You a Haskell for Great Good by Miran Lipovača
 (and now maintained by the community) available to read for free
 [here](https://learnyouahaskell.github.io/). I'll recommend it highly if anyone
 else decides to embark of this journey.
+
+[Link to the base repo.](https://git.sintan1729.uk/SinTan1729/99-haskell-problems)
