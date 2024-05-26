@@ -1,4 +1,4 @@
-import Data.List
+import Data.List (sortBy)
 
 lsort :: [[a]] -> [[a]]
 lsort = sortBy (\x y -> length x `compare` length y)

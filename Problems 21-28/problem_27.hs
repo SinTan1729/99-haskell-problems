@@ -1,4 +1,4 @@
-import Data.List
+import Data.List (groupBy, nub, permutations, sortBy)
 
 group' :: [Int] -> [a] -> [[[a]]]
 group' ln ls = map ((([([fst] <*>)] <*>) . groupBy grouper . sortBy sorter) . zip ls) (nub (permutations placers))

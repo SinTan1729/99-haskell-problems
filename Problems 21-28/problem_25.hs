@@ -1,5 +1,5 @@
-import Data.List
-import System.Random
+import Data.List (nub)
+import System.Random (getStdGen, randomRs)
 
 rndPermu :: [a] -> IO [a]
 rndPermu ls = do
